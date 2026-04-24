@@ -118,6 +118,27 @@ nav.up{box-shadow:0 4px 32px rgba(0,0,0,.06)}
 .edu-school{font-size:12px;color:var(--ink2);font-weight:400;line-height:1.4;margin-bottom:3px}
 .edu-loc{font-size:11px;color:var(--ink3)}
 
+/* ── CAPSTONE ── */
+.cap-shell{border:1px solid var(--border);border-radius:var(--r);overflow:hidden}
+.cap-top{display:grid;grid-template-columns:1fr 1fr;min-height:200px}
+.cap-left{background:var(--navy);padding:2.5rem;display:flex;flex-direction:column;justify-content:space-between}
+.cap-kicker{font-size:9px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:rgba(255,255,255,.35);margin-bottom:.75rem}
+.cap-h3{font-family:"Playfair Display",serif;font-size:26px;font-weight:400;color:#fff;letter-spacing:-.02em;line-height:1.15;margin-bottom:.5rem}
+.cap-sub{font-size:12px;color:rgba(255,255,255,.45);font-weight:300}
+.cap-pill{display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.15);color:rgba(255,255,255,.7);font-size:10px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;padding:6px 14px;border-radius:100px;margin-top:1.5rem;width:fit-content}
+.cap-pill::before{content:"";width:6px;height:6px;border-radius:50%;background:#4ADE80}
+.cap-right{background:var(--surface);padding:2.5rem;display:flex;flex-direction:column;justify-content:center}
+.cap-stat-row{display:flex;gap:2rem}
+.cap-stat-n{font-family:"Playfair Display",serif;font-size:36px;font-weight:400;color:var(--ink);line-height:1}
+.cap-stat-l{font-size:11px;color:var(--ink3);margin-top:4px;letter-spacing:.04em}
+.cap-divider{width:1px;background:var(--border);align-self:stretch}
+.cap-grid{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--border)}
+.cap-cell{padding:1.6rem 2rem;border-right:1px solid var(--border);border-bottom:1px solid var(--border)}
+.cap-cell:nth-child(2n){border-right:none}
+.cap-cell:nth-last-child(-n+2){border-bottom:none}.cap-cell:last-child{border-bottom:none}
+.cap-lbl{font-size:9px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--navy);margin-bottom:8px}
+.cap-txt{font-size:13px;line-height:1.75;color:var(--ink2);font-weight:300}
+
 /* ── CERTIFICATIONS ── */
 .cert-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
 .cert-card{display:flex;align-items:flex-start;gap:14px;padding:1.35rem 1.5rem;background:var(--surface);border:1px solid var(--border);border-radius:var(--r);transition:border-color .2s,background .2s}
